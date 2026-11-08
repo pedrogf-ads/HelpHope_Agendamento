@@ -1,0 +1,11 @@
+{
+  "title": "LandingPage",
+  "description": "A comprehensive platform supporting children with autism and cancer, connecting therapists, families, and donors for effective therapy management and donations.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": true
+  }
+}

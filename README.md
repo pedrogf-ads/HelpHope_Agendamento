@@ -1,221 +1,304 @@
 # HelpHope
 
-«Plataforma digital desenvolvida para otimizar a gestão clínica, administrativa e organizacional da ASIPECA.»
+**Protótipo de aplicativo desktop para gerenciamento de agendamentos da ASIPECA.**
 
 ---
 
-📌 Sobre o Projeto
+## 📌 Sobre o Projeto
 
-O HelpHope é uma plataforma digital desenvolvida para auxiliar a gestão clínica e administrativa da ASIPECA, instituição voltada ao atendimento de crianças com Transtorno do Espectro Autista (TEA) e pacientes oncológicos.
+O **HelpHope** é uma solução proposta para auxiliar a **ASIPECA**, instituição localizada em Sorocaba (SP), na organização e no gerenciamento de agendamentos de atendimentos.
 
-A solução foi criada com o objetivo de centralizar informações, organizar prontuários eletrônicos, otimizar agendamentos e melhorar a comunicação entre profissionais, pacientes e familiares.
+O projeto tem como foco facilitar o controle de horários, a organização das agendas, o cadastro de pacientes e responsáveis e a distribuição dos atendimentos entre salas e profissionais.
 
-O projeto surgiu a partir da necessidade de modernizar processos internos da instituição, reduzindo dificuldades operacionais, retrabalhos e custos relacionados aos sistemas atualmente utilizados.
+Nesta etapa, o HelpHope é composto por um **protótipo de interfaces desenvolvido no Figma** e pela **modelagem de um banco de dados relacional**, que servem como base para uma futura implementação do aplicativo desktop.
 
-Além disso, o HelpHope busca proporcionar maior acessibilidade, eficiência e praticidade no acompanhamento clínico e administrativo da instituição.
-
----
-
-✨ Funcionalidades
-
-- 📋 Gerenciamento de prontuários eletrônicos
-- 📅 Controle e monitoramento de agendamentos
-- 👨‍⚕️ Cadastro de profissionais, pacientes e familiares
-- 🔎 Busca rápida e centralizada de informações
-- 🏥 Organização do histórico clínico dos pacientes
-- 🔐 Sistema de autenticação e controle de acesso
-- 📱 Interface responsiva para desktop e dispositivos móveis
-- 💬 Comunicação entre profissionais e familiares
-- 📊 Acompanhamento de atividades e atendimentos
-- 📄 Geração de relatórios e documentos clínicos
+**Importante:** o HelpHope ainda não é um aplicativo desktop implementado e implantado. As interfaces e interações apresentadas pertencem ao protótipo.
 
 ---
 
-🎯 Objetivo
+## 🎯 Objetivo
 
-O principal objetivo do HelpHope é tornar a gestão clínica e administrativa mais eficiente, organizada e acessível, reduzindo processos manuais e melhorando a produtividade da equipe da instituição.
+Propor uma solução para melhorar a organização dos agendamentos da ASIPECA, facilitando o trabalho da recepção e o gerenciamento das informações necessárias aos atendimentos.
 
----
+O projeto busca contribuir para:
 
-💻 Tecnologias Utilizadas
+- Organização de datas e horários.
+- Redução de conflitos de agendamento.
+- Centralização das informações de pacientes e responsáveis.
+- Organização dos atendimentos por salas e profissionais.
+- Consulta e acompanhamento da agenda.
 
-Front-end
-
-- HTML5
-- CSS3
-- JavaScript
-- React
-- TypeScript
-
-Back-end
-
-- Node.js
-- Express
-
-Banco de Dados
-
-- PostgreSQL
-
-Ferramentas
-
-- GitHub
-- Trello
-- Figma
-- Claude AI
-- ChatGPT
+Esses benefícios representam objetivos da solução e ainda não constituem resultados comprovados de implantação.
 
 ---
 
-📂 Organização do Repositório
-## Estrutura
+## ✨ Funcionalidades Representadas no Protótipo
 
-```txt
+### 📅 Agenda e calendário
+
+Visualização dos atendimentos organizados por datas, horários e disponibilidade.
+
+### 👥 Cadastro de pacientes e responsáveis
+
+Interfaces para registro e consulta das informações necessárias à organização dos atendimentos.
+
+### 🏥 Organização de salas e profissionais
+
+Representação da distribuição dos agendamentos conforme salas, profissionais e horários disponíveis.
+
+### 📋 Gerenciamento de agendamentos
+
+Interfaces para criação, consulta, alteração e cancelamento de agendamentos.
+
+### 🔎 Consulta de informações
+
+Visualização e busca de informações relacionadas aos pacientes e seus agendamentos.
+
+**Observação:** essas funcionalidades estão representadas no protótipo e não devem ser interpretadas como módulos de um sistema desktop já implementado.
+
+---
+
+## 💻 Tecnologias e Ferramentas
+
+### 🎨 Prototipação e interfaces
+
+- **Figma / Figma Make:** criação e organização das interfaces e interações do protótipo.
+- **Código exportado do Figma:** arquivos utilizados para representar e executar a interface prototipada, conforme o conteúdo exportado.
+
+### 🗄️ Banco de Dados
+
+- **MySQL:** tecnologia de referência para a modelagem e os scripts SQL do banco de dados.
+- **SQL:** definição de tabelas, atributos, chaves e relacionamentos.
+
+Os scripts do banco de dados representam a estrutura proposta. Sua existência não significa que o banco já esteja integrado ao protótipo.
+
+### 🛠️ Organização e desenvolvimento
+
+- GitHub — versionamento e armazenamento dos arquivos.
+- Trello — organização das atividades.
+- Figma — prototipação.
+- ChatGPT e Claude AI — apoio à elaboração e revisão de materiais e interfaces.
+
+As bibliotecas e linguagens específicas do código exportado do Figma deverão ser identificadas conforme os arquivos efetivamente adicionados ao repositório.
+
+---
+
+## 📂 Organização do Repositório
+
+Estrutura recomendada:
+
+```text
 HelpHope/
 │
 ├── codigo/
-│   ├── sistema/
-│   └── figma/
+│   ├── figma/
+│   │   └── arquivos do protótipo exportado
+│   │
+│   └── banco-de-dados/
+│       └── scripts SQL
 │
 ├── prompts/
-│   ├── sistema/
-│   └── figma/
+│   └── prompts utilizados no projeto
 │
 ├── docs/
+│   └── documentação e materiais do projeto
 │
 ├── assets/
 │   └── prints/
+│       └── capturas das interfaces
 │
 └── README.md
 ```
----
 
-🖥️ Estrutura do Projeto
-
-Este repositório contém:
-
-- Código-fonte do sistema
-- Protótipos desenvolvidos no Figma
-- Organização de prompts utilizados no desenvolvimento
-- Estrutura de versionamento
-- Documentação acadêmica
-- Recursos visuais do projeto
+A estrutura apresentada é a organização recomendada para os arquivos desta etapa. Algumas pastas poderão precisar ser criadas ou reorganizadas no repositório.
 
 ---
 
-🎨 Protótipo Figma
+## 🖥️ Estrutura do Projeto
 
-O Figma foi utilizado para:
+O repositório reúne os materiais de desenvolvimento do HelpHope:
 
-- criação das interfaces
-- prototipação visual
-- validação do design
-- organização das telas
-- estruturação responsiva
+**1. Protótipo de interfaces**
 
----
+Arquivos relacionados às telas e interações desenvolvidas no Figma, representando o fluxo de gerenciamento de agendamentos.
 
-🤖 Desenvolvimento com Inteligência Artificial
+**2. Modelagem do banco de dados**
 
-Durante o desenvolvimento do projeto foram utilizadas ferramentas de inteligência artificial para apoio técnico, estruturação do sistema, organização das funcionalidades e otimização do processo de desenvolvimento.
+Scripts SQL e materiais de modelagem utilizados para estruturar as informações necessárias ao gerenciamento dos atendimentos.
 
-Ferramentas utilizadas
+**3. Documentação**
 
-- Figma AI
-- Claude AI
-- ChatGPT
+Materiais de requisitos, diagramas, apresentações e registros de desenvolvimento.
 
-Os prompts utilizados estão organizados na pasta:
+**4. Recursos visuais**
 
-/prompts
+Capturas das interfaces, imagens e outros materiais utilizados na apresentação do projeto.
+
+**5. Prompts**
+
+Instruções utilizadas como apoio à elaboração e ao aperfeiçoamento do protótipo.
 
 ---
 
-📸 Imagens do Projeto
+## 🎨 Protótipo no Figma
 
-As principais interfaces e telas do sistema estão disponíveis na pasta:
+O Figma foi utilizado para representar visualmente o funcionamento proposto do HelpHope.
 
-/assets/prints
+O protótipo contempla interfaces relacionadas a:
 
----
+- Visualização da agenda.
+- Cadastro de pacientes e responsáveis.
+- Organização de salas e profissionais.
+- Criação e gerenciamento de agendamentos.
+- Navegação entre as telas representadas.
 
-📚 Documentação
-
-A documentação acadêmica, banner do projeto e materiais complementares estão disponíveis na pasta:
-
-/docs
-
----
-
-👥 Equipe Solutions
-
-- Pedro Gustavo
-- Luiz Miller
-- Eduardo Henrique
-- Eduardo Lima
-- Luan
-- Ryan
-- Vinicius Melo
+As interações do protótipo permitem demonstrar fluxos de utilização, mas não substituem a implementação de um aplicativo desktop com banco de dados integrado.
 
 ---
 
-🚀 Status do Projeto
+## 🗄️ Banco de Dados
 
-✅ Protótipo desenvolvido
-✅ Landing Page criada
-✅ Sistema funcional
-✅ Estrutura responsiva
-✅ Organização no GitHub
-✅ Documentação acadêmica concluída
+A modelagem do banco de dados foi desenvolvida para representar as informações necessárias ao gerenciamento de agendamentos da ASIPECA.
+
+Os materiais podem incluir:
+
+- Modelo Entidade-Relacionamento (MER).
+- Diagrama Entidade-Relacionamento (DER).
+- Scripts de criação de tabelas (DDL).
+- Definição de chaves primárias e estrangeiras.
+- Relacionamentos e restrições de integridade.
+
+Os arquivos SQL serão disponibilizados na pasta:
+
+`codigo/banco-de-dados/`
+
+**O banco de dados ainda não está integrado a um aplicativo desktop funcional.**
 
 ---
 
-🔗 Links do Projeto
+## 🤖 Apoio de Inteligência Artificial
 
-Claude Project e Landing Page
+Ferramentas de inteligência artificial foram utilizadas como apoio à organização do projeto, à criação e revisão de interfaces, à documentação e à elaboração de instruções para prototipação.
 
-https://claude.ai/public/artifacts/a73865b7-5ab8-4f4f-84dd-9d85224c22ba
+Entre as ferramentas utilizadas estão:
 
-Figma
+- Figma Make.
+- ChatGPT.
+- Claude AI.
+
+Os prompts e materiais correspondentes poderão ser consultados na pasta:
+
+`prompts/`
+
+---
+
+## 📸 Imagens do Projeto
+
+As capturas das interfaces e os recursos visuais do HelpHope estão organizados na pasta:
+
+`assets/prints/`
+
+Essas imagens apresentam o design e os fluxos representados no protótipo.
+
+---
+
+## 📚 Documentação
+
+A documentação do projeto está organizada na pasta:
+
+`docs/`
+
+Ela reúne materiais relacionados ao levantamento de requisitos, modelagem, planejamento, apresentações e evolução da proposta.
+
+---
+
+## 👥 Equipe de Desenvolvimento
+
+- **Pedro Gustavo Fernandes Bendinelli**
+- **Eduardo Henrique Silveira Ferreira**
+- **João Pedro Pereti do Nascimento Leite**
+- **Eduardo Lima de Almeida**
+
+---
+
+## 🚀 Status do Projeto
+
+| Componente | Situação |
+|---|---|
+| Levantamento de requisitos | Realizado |
+| Prototipação de interfaces no Figma | Desenvolvida |
+| Modelagem do banco de dados | Desenvolvida |
+| Scripts SQL | Preparados para inclusão no repositório |
+| Código exportado do Figma | Preparado para inclusão no repositório |
+| Landing Page | Desenvolvida |
+| Aplicativo desktop funcional | Não implementado nesta etapa |
+| Integração entre interfaces e banco de dados | Não implementada nesta etapa |
+
+**Status geral: prototipação e modelagem de dados.**
+
+---
+
+## 🔗 Links do Projeto
+
+**Landing Page / Figma**
 
 https://cell-sphere-59682608.figma.site
 
-Trello
+**Trello**
 
 https://trello.com/b/AnpXjfxY/usina-de-projetos
 
----
+**Protótipo anterior / Claude**
 
-📌 Instituição
+https://claude.ai/public/artifacts/a73865b7-5ab8-4f4f-84dd-9d85224c22ba
 
-Centro Universitário Facens
-Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas
-Disciplina: UPX — Usina de Projetos Experimentais
+*O link do Claude é mantido como referência de uma versão anterior e não representa necessariamente a versão atual do HelpHope.*
 
 ---
 
-🌎 English Version
+## 🏫 Instituição de Ensino
 
-HelpHope is a digital platform developed to support ASIPECA's clinical, administrative, and organizational management.
+**Centro Universitário Facens**
 
-The platform was created to centralize information, organize electronic medical records, optimize scheduling, and improve communication between healthcare professionals, patients, and families.
+Curso: Análise e Desenvolvimento de Sistemas (ADS)
 
-The project aims to modernize institutional processes, reduce operational difficulties, and improve accessibility and efficiency in healthcare management.
+Projeto desenvolvido no contexto da UPX — Usina de Projetos Experimentais.
 
-Main Technologies
+**Instituição beneficiada:** ASIPECA — Sorocaba, São Paulo.
 
-- React
-- TypeScript
-- Node.js
-- PostgreSQL
-- Figma
-- Claude AI
+---
+
+## 🌎 English Version
+
+### About HelpHope
+
+HelpHope is a proposed desktop appointment scheduling application designed to support ASIPECA, a nonprofit organization based in Sorocaba, Brazil.
+
+The project focuses on organizing appointments, managing schedules, registering patients and their guardians, and coordinating rooms and professionals.
+
+### Current Development Stage
+
+The current deliverables consist of:
+
+- Interactive interface prototypes created with Figma.
+- Relational database modeling.
+- SQL database scripts.
+- Exported Figma prototype code.
+- Project documentation and interface screenshots.
+
+**HelpHope is not yet a fully implemented or deployed desktop application.**
+
+The prototype and database design provide a foundation for future software development.
+
+### Tools
+
+- Figma / Figma Make
+- MySQL / SQL
 - GitHub
 - Trello
+- ChatGPT
+- Claude AI
 
-Repository Structure
+---
 
-- System source code
-- Figma prototypes
-- Prompt engineering organization
-- Academic documentation
-- Project screenshots
+© 2026 HelpHope. Todos os direitos reservados.

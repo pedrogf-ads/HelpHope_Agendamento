@@ -1,10 +1,9 @@
 # 📸 Prints do Projeto — HelpHope
 
-Esta pasta contém imagens relacionadas ao desenvolvimento visual e funcional do projeto HelpHope.
+Esta pasta contém imagens relacionadas ao desenvolvimento visual do projeto HelpHope.
 
 ## Estrutura
 
-- `/sistema` → Prints do sistema funcionando
 - `/figma` → Prints do protótipo visual desenvolvido no Figma
 
 ## Objetivo

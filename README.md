@@ -237,19 +237,18 @@ Ela reúne materiais relacionados ao levantamento de requisitos, modelagem, plan
 
 ## 🔗 Links do Projeto
 
-**Landing Page / Figma**
+**Landing Page**
 
-https://cell-sphere-59682608.figma.site
+https://dew-dirt-09439250.figma.site
+
+** Figma**
+
+https://violet-mute-01040326.figma.site
 
 **Trello**
 
 https://trello.com/b/AnpXjfxY/usina-de-projetos
 
-**Protótipo anterior / Claude**
-
-https://claude.ai/public/artifacts/a73865b7-5ab8-4f4f-84dd-9d85224c22ba
-
-*O link do Claude é mantido como referência de uma versão anterior e não representa necessariamente a versão atual do HelpHope.*
 
 ---
 

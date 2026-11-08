@@ -88,7 +88,7 @@ As bibliotecas e linguagens específicas do código exportado do Figma deverão 
 Estrutura recomendada:
 
 ```text
-HelpHope/
+HelpHope_Agendamento/
 │
 ├── codigo/
 │   ├── figma/
@@ -96,9 +96,6 @@ HelpHope/
 │   │
 │   └── banco-de-dados/
 │       └── scripts SQL
-│
-├── prompts/
-│   └── prompts utilizados no projeto
 │
 ├── docs/
 │   └── documentação e materiais do projeto

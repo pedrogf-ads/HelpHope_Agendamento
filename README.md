@@ -241,7 +241,7 @@ Ela reúne materiais relacionados ao levantamento de requisitos, modelagem, plan
 
 https://dew-dirt-09439250.figma.site
 
-** Figma**
+**Figma**
 
 https://violet-mute-01040326.figma.site
 

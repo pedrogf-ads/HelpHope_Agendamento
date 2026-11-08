@@ -77,7 +77,7 @@ Os scripts do banco de dados representam a estrutura proposta. Sua existência n
 - GitHub — versionamento e armazenamento dos arquivos.
 - Trello — organização das atividades.
 - Figma — prototipação.
-- ChatGPT e Claude AI — apoio à elaboração e revisão de materiais e interfaces.
+- MySQL — criaçâo do arquivo SQL.
 
 As bibliotecas e linguagens específicas do código exportado do Figma deverão ser identificadas conforme os arquivos efetivamente adicionados ao repositório.
 
@@ -162,11 +162,12 @@ A modelagem do banco de dados foi desenvolvida para representar as informações
 
 Os materiais podem incluir:
 
-- Modelo Entidade-Relacionamento (MER).
-- Diagrama Entidade-Relacionamento (DER).
-- Scripts de criação de tabelas (DDL).
-- Definição de chaves primárias e estrangeiras.
-- Relacionamentos e restrições de integridade.
+- Modelo Entidade-Relacionamento (MER): representação das entidades, seus atributos e relacionamentos.
+- Diagrama Entidade-Relacionamento (DER): representação visual da estrutura e dos relacionamentos entre as tabelas.
+- DDL (Data Definition Language): scripts SQL para criação e definição da estrutura das tabelas.
+- DML (Data Manipulation Language): scripts SQL para inserção de dados fictícios utilizados em testes e demonstrações.
+- Chaves primárias e estrangeiras (PK e FK): identificação dos registros e estabelecimento de relacionamentos entre tabelas.
+- Integridade referencial: restrições que ajudam a manter a consistência dos relacionamentos entre os dados.
 
 Os arquivos SQL serão disponibilizados na pasta:
 
@@ -184,7 +185,6 @@ Entre as ferramentas utilizadas estão:
 
 - Figma Make.
 - ChatGPT.
-- Claude AI.
 
 Os prompts e materiais correspondentes poderão ser consultados na pasta:
 
